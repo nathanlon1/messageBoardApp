@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from django.models.generic import ListView
+from django.views.generic import ListView
 from .models import Post
 
 class HomePageView(ListView):
